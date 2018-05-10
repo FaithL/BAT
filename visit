@@ -81,7 +81,8 @@ li a:hover:not(.active) {
   <a target="_blank" href="img_fjords.jpg">
     <img src="https://theoddmarket.com/wp-content/uploads/2017/04/image-jpg-89.jpg" alt="The Museum of Icecream" width="300" height="200">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">
+</div>
 </div>
 </td>
 </tr>
@@ -102,12 +103,17 @@ li a:hover:not(.active) {
 
 
 <tr>
- <td>
+ <td> <!-- Golden Gate Bridge -->
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="" alt="Northern Lights" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc"><ul>
+  <li><b>Facts!</b></li>
+  <li>Golden Gate Bridge </li>
+  <li>Not actually golden, international orange </li>
+<li>The bridge took 7 years to build </ki>
+<li>At the time it was built, the Golden Gate Bridge was the largest spanning suspension bridge in the world </li></div>
 </div>
 </td>
 </tr>
@@ -119,7 +125,12 @@ li a:hover:not(.active) {
   <a target="_blank" href="img_mountains.jpg">
     <img src="" alt="Mountains" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc"> <ul>
+<li> Santana Row </li>
+<li>Popular place for teens; great places to go with friends </li>
+<li>Outdoor shopping center </li>
+<li>Luxurious residential shopping fair center </li>
+ </div>
 </div>
 </td>
 </tr>
