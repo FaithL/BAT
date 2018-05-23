@@ -71,7 +71,7 @@ li a:hover:not(.active) {
   <li><a  href="home.html">Home</a></li>
   <li><a  class="active" href="food.html">Resteraunts</a></li>
   <li style="float:right"><a href="hotels.html">Hotels</a></li>
-  <li style="float:right"><a href="teenareas.html">Teen Attractions/Travel Destinations</a></li>
+  <li style="float:right"><a href="visit.html">Teen Attractions/Travel Destinations</a></li>
 </ul>
 
  <table size="90%" align="center">
