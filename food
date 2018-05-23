@@ -4,14 +4,14 @@
 <title>Food</title>
 <style>
 body{
-background-color: #abc8cc ;
+background-color: #b3c9ef  ;
 }
 div.gallery {
     margin: 5px;
     border: 4px solid #ccc;
     float: left;
-    width: 800px;
-	height: 700px;
+    width: 500px;
+	height: 500px;
 	hspace: 20px;
 }
 
@@ -29,7 +29,7 @@ div.desc {
     text-align: center;
 }
 ul{
-background-color: #bc9712; <!-- #dc91f2 -->
+background-color: #27363d; <!-- #dc91f2 -->
    list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,7 +40,7 @@ background-color: #bc9712; <!-- #dc91f2 -->
 li {
     float: left;
     border-right:1px solid #bbb;
-	color: black;
+	color: white;
 }
 
 li:last-child {
@@ -49,28 +49,29 @@ li:last-child {
 
 li a {
     display: block;
-    color: black ;
+    color: white ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #c0cee2;
 }
 
 .active {
     background-color: #c4d1d3;
 }
 </style>
+
 </head>
 <body>
 
  <ul hspace="20">
-  <li><a  href="#home">Home</a></li>
-  <li><a  class="active" href="#news">Resteraunts</a></li>
-  <li style="float:right"><a href="#about">Hotels</a></li>
-  <li style="float:right"><a href="">Teen Attractions/Travel Destinations</a></li>
+  <li><a  href="home.html">Home</a></li>
+  <li><a  class="active" href="food.html">Resteraunts</a></li>
+  <li style="float:right"><a href="hotels.html">Hotels</a></li>
+  <li style="float:right"><a href="teenareas.html">Teen Attractions/Travel Destinations</a></li>
 </ul>
 
  <table size="90%" align="center">
@@ -80,7 +81,8 @@ li a:hover:not(.active) {
   <a target="_blank" href="img_fjords.jpg">
     <img src="https://i1.wp.com/www.theimpulsivebuy.com/wordpress/wp-content/uploads/2017/09/Panda-Express-Peking-Pork.jpg?zoom=1.25&resize=598%2C336&ssl=1" alt="Trolltunga Norway" width="1000" height="2000">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Panda Express might be more appealing for non-vegetarians than vegetarians, with its juicy orange chicken. It is an American Chinese cuisine with bold, outstanding choices and fresh dishes every day.
+</div>
 </div>
 </tr>
 </td>
@@ -92,19 +94,21 @@ li a:hover:not(.active) {
   <a target="_blank" href="img_forest.jpg">
     <img src="https://i2.wp.com/endoedibles.com/wp-content/uploads/2014/08/009-Stans-9.jpg" alt="Forest" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Donuts are good anywhere, but at Stan’s, they are irresistible! Anyone that loves sugar would immediately love the glazed and sugared donuts at Stan’s.
+</div>
 </div>
 </tr>
 </td>
 
 <tr>
 <td>
-<!-- paris Baughette -->
+<!-- paris Baghette -->
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Paris_Baguette_Caf%C3%A9_in_2015_01.jpg" alt="Northern Lights" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">If you are up for an elegant snack with your friends, then Paris Baguette is numero uno. With all kinds of French pastries and custards, you can taste what the French have for dessert!
+</div>
 </div>
 </tr>
 </td>
@@ -116,7 +120,9 @@ li a:hover:not(.active) {
   <a target="_blank" href="img_mountains.jpg">
     <img src="coldstone.jpg" alt="Mountains" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">If you have a sweet tooth, Cold Stone is the place for you! With thick, creamy ice cream and a cozy environment, it is a great after-school hangout spot.
+
+</div>
 </div>
 </td>
 </tr>
@@ -128,23 +134,13 @@ li a:hover:not(.active) {
     <img src="chaat.jpg" alt="Trolltunga Norway" width="300" height="200">
   </a>
   <div class="desc">Chaat Bhavan
-Primarily chaat and other Indian snack items are served here. Though crowded during the holidays and weekends. The waiting time can be long sometimes but the interior is spacious creating a comfortable atmosphere for family dining. The food is great. It is a vegetarian restaurant and alcohol isn’t served. 
+Mostly chaat and other Indian snacks are served there. The inside is spacious, creating a comfortable atmosphere for family dining. The food is amazing!!!!! and it’s all vegetarian! 
 Cold Stone
 </div>
 </div>
 </tr>
 </td>
-
-<tr>
-<td>
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Baskin-Robbins_logo.svg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-</tr>
-</td>
+	
 
 <tr>
 <td>
@@ -153,7 +149,8 @@ Cold Stone
   <a target="_blank" href="img_lights.jpg">
     <img src="https://cdn.geekwire.com/wp-content/uploads/2015/03/modpizza.jpg" alt="Northern Lights" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">Get a craving for eating out? If you are looking for delicious, crispy pizza, then there is nothing better than Mod. You can even create your own pizza with anything you want if you’d like!
+</div>
 </div>
 </tr>
 </td>
@@ -166,7 +163,9 @@ Cold Stone
   <a target="_blank" href="img_mountains.jpg">
     <img src="https://cdn20.patchcdn.com/users/22423906/20160630/051432/styles/T800x600/public/article_images/black_bear_diner.jpg" alt="Mountains" width="600" height="400">
   </a>
-  <div class="desc">Add a description of the image here</div>
+  <div class="desc">It is a great choice for a late breakfast if you don’t feel like cooking. The soft, warm pancakes and coffee will get you fresh and ready for the day ahead.
+
+</div>
 </div>
 </tr>
 </td>
@@ -174,41 +173,17 @@ Cold Stone
 
 <tr>
 <td>
-<div class="gallery">
+<div class="gallery"> <!-- Pho House -->
   <a target="_blank" href="img_fjords.jpg">
     <img src="pho.jpg" alt="Trolltunga Norway" width="300" height="200">
   </a>
   <div class="desc">Pho house
-	You can’t go wrong with any of the menu items. They provide delicious pho. The wait is long, but definitely worth it. There is plenty of parking so you won't have to worry about that. The size options are large and extra large so you are paying a little more than usual. There is a nice, friendly atmosphere. The owners are very friendly. Their food is delish and cheap.
+	You can’t go wrong with any of the menu items! They provide delicious pho, so the wait is definitely worth it. There is a calm, friendly atmosphere and the owners are very friendly. As a bonus, their food is delish and cheap!
+
 </div>
 </tr>
 </td>
 
-
-
-<tr>
-<td>
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc"></div>
-</div>
-</tr>
-</td>
-
-
-<tr>
-<td>
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-</td>
-</tr>
-</table>
 
 </body>
 </html>
