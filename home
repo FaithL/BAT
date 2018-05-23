@@ -1,7 +1,5 @@
-<html>
 <head>
-<title>Home</title>
-
+<title> Home </title>
 <style>
 ul{
 background-color: #4286f4 ;
@@ -38,18 +36,22 @@ li a:hover:not(.active) {
     background-color: #c0cee2;
 }
 body{
- background-color:  #8aace2 ;
+background-image: url('IMG_0593.jpg');
+background-repeat: repeat;
+   background-size: contain;
+
+}
+h3 {
+color: #4286f4 ;
 }
 </style>
-
 </head>
-<body>
-
+<body > 
 <ul hspace="20">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="foods.html">Restaurants</a></li>
+  <li><a  href="home.html" class="active">Home</a></li>
+  <li><a  href="food.html">Resteraunts</a></li>
   <li style="float:right"><a href="hotels.html">Hotels</a></li>
-  <li style="float:right"><a href="">Teen Attractions/ Travel Desinations</a></li>
+  <li style="float:right"><a href="teenareas.html">Teen Attractions/Travel Destinations</a></li>
 </ul>
 
 <table size="90%" align="center">
@@ -57,14 +59,14 @@ body{
 
 <tr hspace="40" colspan="3">
 <td>
-<font size="6" hspace="50">Bay Area Tour</font>
+<font size="6" color="white" hspace="50">Bay Area Tour</font>
 </td>
 </tr>
 
 
 <tr colspan="3">
 <td>
-<h1 style="font-family: 'PT Serif', serif;" >Welcome to The Bay Area</h1><br>
+<h1> <font color="white" >Welcome to The Bay Area</font></h1><br>
 </td>
 </tr>
 
@@ -72,8 +74,7 @@ body{
 <tr>
 <td>
 
-<div class="map">
-<iframe align="center" hspace="50" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12679.814818465158!2d-121.8619537!3d37.39092709999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1516850472501" width="600" height="450" frameborder="10"  style="border:40" allowfullscreen></iframe> </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101506.4774558064!2d-122.04383253014761!3d37.34067575572826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb57edaed9903%3A0x881294cf2f99f6fc!2sCentral+Park+Library!5e0!3m2!1sen!2sus!4v1527111499418" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </td>
 <td>
 <h3> Hey, I hope you're enjoying our strange side bay of California. We are Faith Livengood, <br>
@@ -88,4 +89,6 @@ Hrishvi Bansal, Keerthana Anand and Sreya Sreepadmanabhan. We all have lived in 
 
 </body>
 </html>
+
+
 
